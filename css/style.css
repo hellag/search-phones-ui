@@ -1,0 +1,19 @@
+*{
+
+}
+body{
+    background-color: rgb(212, 212, 212);
+}
+
+#phone-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .column {
+    background-color: #ffff;
+    flex: 20%;
+    margin : 5px 5px;
+  }
