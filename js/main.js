@@ -67,7 +67,7 @@ function getPhones(){
 
   phones.forEach(element => {
     let phoneContent="<div class='column'>"
-    let img="<img src='"+element.imgUrl+"' ><i class='fa fa-heart'></i>";
+    let img="<i class='fa fa-heart-o'></i><img src='"+element.imgUrl+"' >";
     let name="<h5 class='name'>"+element.name+"</h5>"
     let description="<p class='description'>"+element.description+"</p>";
     let price="<span class='price'>"+element.price+"	&euro;</span>";

@@ -10,14 +10,21 @@
     <title>Front End Challenge</title>
 </head>
 <body>
-    <div class="input-group">
-        <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" value="Κινητά τηλέφωνα"/>
-        <button type="button" class="btn" onclick="getPhones()"><i class="fa fa-search"></i></button>
-    </div>
-    <div id="title" class="title">
+    <form class='form-inline'>
+        <div class="input-group">
+          <input type='text' id='search' class="form-control search-form" placeholder="Κινητή τηλεφωνία">
+          <span class="input-group-btn">
+            <button id="search-this"type="button" class="pull-right btn btn-default search-btn" onclick="getPhones()">
+                <i class="fa fa-search"></i>
+            </button>
+          </span>
+        </div>
+      </form>
+   
+    <div class="container">
+      <div id="title" class="title">
         <p id="phone-title"></p>
     </div>
-    <div class="container">
        
         <div id="phone-cards">
             
